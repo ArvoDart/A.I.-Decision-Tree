@@ -10,3 +10,5 @@ Program Description:
   will crash.
 2. This program can process an unlimited amount of trees,  but will only store them if user chooses the option in the menu
 3. The program loads the csv file attributes and targets automatically, so one only needs to type the csv file name
+4. The class target data is defined as the last column vector of the csv file
+5. In the tree traversal, because parallel arrays are used to traverse the binary tree, the program is forced to ask the user for the same data that they've input before. It has no memory of previous input values
